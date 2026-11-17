@@ -1,0 +1,24 @@
+{
+  "name": "credai-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5182 --strictPort",
+    "type-check": "vue-tsc --noEmit -p tsconfig.json",
+    "test": "node --test tests/*.test.mjs",
+    "build": "vue-tsc --noEmit -p tsconfig.json && vite build && node scripts/create-static-route-entrypoints.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4181 --strictPort"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1",
+    "vue-tsc": "^3.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0"
+  }
+}
