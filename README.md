@@ -49,10 +49,8 @@ esta cópia.
 Esta entrega é local. Não configura domínio, infraestrutura, release ou deploy.
 A pasta `apps/site` pode ser movida integralmente para um repositório próprio.
 
-Até a definição do domínio da CredAI, `index.html` e `public/sitemap.xml`
-preservam a URL canônica atual, `https://bravia.io/credai`. Antes da publicação,
-atualize canonical, alternates, Open Graph, sitemap e a URL do sitemap em
-`public/robots.txt` para o endereço definitivo.
+Canonical, alternates, Open Graph, sitemap e `public/robots.txt` apontam para
+o domínio definitivo, `https://credai.com.br/`.
 
 `src/googleTracking.ts` conserva o contêiner GTM e o destino GA4 da CredAI
 (`G-6BTTD8476P`), condicionado ao consentimento. O destino do Puzzle permanece
@@ -67,6 +65,7 @@ cada push na `main`. O caminho base vem do próprio Pages: `/CredAI-website/`
 enquanto não houver domínio próprio, e `/` depois que o domínio estiver
 configurado. Para ativar, em Settings → Pages escolha Source: GitHub Actions.
 
-Para usar `credai.com`: configure o domínio em Settings → Pages, aponte o DNS
-para o GitHub Pages e atualize canonical, Open Graph, sitemap e robots.
-`credai.com` e `www.credai.com` já estão na lista de hosts do rastreamento.
+Domínio `credai.com.br`: configure-o em Settings → Pages → Custom domain e
+aponte o DNS para o GitHub Pages (registros A no domínio raiz e `www` como
+CNAME para `pavabucket.github.io`). `credai.com.br` e `www.credai.com.br` estão
+na lista de hosts do rastreamento.

@@ -1,7 +1,7 @@
 const puzzleId = "G-K7PQDVE7SB";
 const credaiId = "G-6BTTD8476P";
 const tagManagerUrl = "https://www.googletagmanager.com/gtm.js?id=GTM-W53V38JT";
-const productionHosts = new Set(["bravia.io", "www.bravia.io", "credai.com", "www.credai.com"]);
+const productionHosts = new Set(["bravia.io", "www.bravia.io", "credai.com.br", "www.credai.com.br"]);
 let lastConsent: { analytics: boolean; marketing: boolean } | undefined;
 
 declare global {
