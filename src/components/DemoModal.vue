@@ -23,10 +23,10 @@ type LeadApiResponse = {
 
 const LEAD_FORM_OPTIONS: Record<ProductKey, LeadFormOptions> = {
   credai: {
-    intro: "Preencha seus dados para conversar com a Bravia.",
+    intro: "Preencha seus dados para conversar conosco.",
     pageName: "Bravia CredAI",
     challengePlaceholder: "Conte rapidamente onde sua análise de crédito precisa evoluir",
-    consentLabel: "Concordo em ser contatado pela Bravia para uma conversa comercial sobre o CredAI.",
+    consentLabel: "Concordo em ser contatado pela CredAI para uma conversa comercial sobre a plataforma.",
     segmentos: [
       "Fintech ou banco digital",
       "Financeira, FIDC ou securitizadora",

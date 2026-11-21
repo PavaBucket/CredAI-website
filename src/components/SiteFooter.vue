@@ -8,9 +8,9 @@ defineEmits<{ "manage-cookies": [] }>();
   <footer class="site-footer site-footer--light">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img class="footer-logo" :src="asset('assets/bravia-logo-dark.svg')" alt="Bravia" />
-        <p>A plataforma definitiva para criar, operar e escalar produtos financeiros.</p>
-        <a class="footer-social-link" href="https://www.linkedin.com/company/somos-bravia" target="_blank" rel="noreferrer" aria-label="LinkedIn da Bravia">
+        <img class="footer-logo" :src="asset('assets/creadai-logo-dark.svg')" alt="CredAI" />
+        <p>Inteligência para decidir antes do risco aparecer.</p>
+        <a class="footer-social-link" href="https://www.linkedin.com/company/credai-tech/" target="_blank" rel="noreferrer" aria-label="LinkedIn da CredAI">
           <span aria-hidden="true">in</span>
         </a>
       </div>
@@ -30,7 +30,7 @@ defineEmits<{ "manage-cookies": [] }>();
         <a href="https://bravia.io/terms-of-use">Termos de uso</a>
       </nav>
       <div class="footer-contact">
-        <button class="footer-demo" type="button" data-open-modal data-context="credai-footer">Fale com a Bravia</button>
+        <button class="footer-demo" type="button" data-open-modal data-context="credai-footer">Fale com a CredAI</button>
       </div>
     </div>
     <div class="container footer-bottom">
